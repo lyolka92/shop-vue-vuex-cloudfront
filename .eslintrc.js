@@ -21,7 +21,7 @@ module.exports = {
     "no-return-await": "error",
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
-    
+    "vue/no-mutating-props": 'warn',
     "@typescript-eslint/explicit-module-boundary-types": "off"
   },
   overrides: [
